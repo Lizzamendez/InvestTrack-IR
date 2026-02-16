@@ -53,13 +53,13 @@ VBA
 
     Sub NavegarPara(aba As String, posicaoX As Double)
 
-    Dim shp As Shape
+        Dim shp As Shape
 
-    Set shp = ActiveSheet.Shapes("MarcadorMenu")
+        Set shp = ActiveSheet.Shapes("MarcadorMenu")
 
-    shp.Left = posicaoX
+        shp.Left = posicaoX
 
-    Sheets(aba).Activate
+        Sheets(aba).Activate
 
     End Sub
 
