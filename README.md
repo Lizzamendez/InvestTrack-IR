@@ -41,9 +41,7 @@ O coração da ferramenta é o cálculo do Preço Médio, essencial para o IR. A
 
 Excel
 
-
-
-=SE(Qtd_Atual>0; Total_Investido / Total_Qtd_Comprada; 0)
+    =SE(Qtd_Atual>0; Total_Investido / Total_Qtd_Comprada; 0)
 
 2. Automação de Interface (VBA)
 
@@ -53,9 +51,7 @@ A planilha conta com um menu interativo. O código VBA abaixo é responsável po
 
 VBA
 
-
-
-Sub NavegarPara(aba As String, posicaoX As Double)
+    Sub NavegarPara(aba As String, posicaoX As Double)
 
     Dim shp As Shape
 
@@ -65,7 +61,7 @@ Sub NavegarPara(aba As String, posicaoX As Double)
 
     Sheets(aba).Activate
 
-End Sub
+    End Sub
 
 📋 Como utilizar
 
